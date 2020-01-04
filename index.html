@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>home</title>
+
+    <!---------css-------->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="#" id="logo"><img src="img/logo-GMC-white.png"/></a>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="banner"><img src="img/img-bann.gif" /></div>
+
+    <section>
+      <h2>courses</h2>
+
+      <div id="gallery">
+        <div class="gal">
+          <img src="img/gallery1.jpg" /><button
+            id="modal1"
+            onclick="popUp(event)"
+          >
+            read more
+          </button>
+          <div class="modal1 modal">
+            <h3>Hello go my code</h3>
+            <p>
+              Le Lorem Ipsum est simplement du faux texte employé dans la
+              composition et la mise en page avant impression. Le Lorem Ipsum
+              est le faux texte standard de l'imprimerie depuis les années 1500,
+              quand un imprimeur anonyme assembla ensemble des morceaux de texte
+              pour réaliser un livre spécimen de polices de texte. Il n'a pas
+              fait que survivre cinq siècles, mais s'est aussi adapté à la
+              bureautique informatique, sans que son contenu n'en soit modifié.
+              Il a été popularisé dans les années 1960 grâce à la vente de
+              feuilles Letraset contenant des passages du Lorem Ipsum, et, plus
+              récemment, par son inclusion dans des applications de mise en page
+              de texte, comme Aldus PageMaker.
+            </p>
+          </div>
+        </div>
+
+        <div class="gal">
+          <img src="img/gallery2.jpg" /><button
+            id="modal2"
+            onclick="popUp(event)"
+          >
+            read more
+          </button>
+          <div class="modal2 modal">
+            <h3>Hello go my code</h3>
+            <p>
+              Le Lorem Ipsum est simplement du faux texte employé dans la
+              composition et la mise en page avant impression. Le Lorem Ipsum
+              est le faux texte standard de l'imprimerie depuis les années 1500,
+              quand un imprimeur anonyme assembla ensemble des morceaux de texte
+              pour réaliser un livre spécimen de polices de texte. Il n'a pas
+              fait que survivre cinq siècles, mais s'est aussi adapté à la
+              bureautique informatique, sans que son contenu n'en soit modifié.
+              Il a été popularisé dans les années 1960 grâce à la vente de
+              feuilles Letraset contenant des passages du Lorem Ipsum, et, plus
+              récemment, par son inclusion dans des applications de mise en page
+              de texte, comme Aldus PageMaker.
+            </p>
+          </div>
+        </div>
+
+        <div class="gal">
+          <img src="img/gallery3.jpg" /><button
+            id="modal3"
+            onclick="popUp(event)"
+          >
+            read more
+          </button>
+          <div class="modal3 modal">
+            <h3>Hello go my code</h3>
+            <p>
+              Le Lorem Ipsum est simplement du faux texte employé dans la
+              composition et la mise en page avant impression. Le Lorem Ipsum
+              est le faux texte standard de l'imprimerie depuis les années 1500,
+              quand un imprimeur anonyme assembla ensemble des morceaux de texte
+              pour réaliser un livre spécimen de polices de texte. Il n'a pas
+              fait que survivre cinq siècles, mais s'est aussi adapté à la
+              bureautique informatique, sans que son contenu n'en soit modifié.
+              Il a été popularisé dans les années 1960 grâce à la vente de
+              feuilles Letraset contenant des passages du Lorem Ipsum, et, plus
+              récemment, par son inclusion dans des applications de mise en page
+              de texte, comme Aldus PageMaker.
+            </p>
+          </div>
+        </div>
+        <span class="btn"><a href="courses.html">View more....</a></span>
+      </div>
+    </section>
+
+    <section>
+      <h2>More about GoMyCode:</h2>
+      <div class="container">
+        <div class="video">
+          <iframe
+            width="700"
+            height="315"
+            src="https://www.youtube.com/embed/MkLog_27S6U"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer><div class="container"></div></footer>
+
+    <!-----------js-------------->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
